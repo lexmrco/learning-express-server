@@ -1,0 +1,28 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "Ejemplo de servidor en node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmrco/learning-express-server.git"
+  },
+  "author": "Alexander Moreno Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexmrco/learning-express-server/issues"
+  },
+  "homepage": "https://github.com/lexmrco/learning-express-server#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
