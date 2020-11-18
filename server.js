@@ -18,4 +18,5 @@ app.get('/api/ping', (req, res) => {
 });
 
 app.use('/api/auth', require("./routes/auth"));
+app.use('/api/messages', require("./routes/messages"));
 app.listen(PORT);
